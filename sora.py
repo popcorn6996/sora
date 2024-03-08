@@ -44,4 +44,4 @@ def fetch_videos_from_pexels(breakdown_components):
     return video_urls
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000)
